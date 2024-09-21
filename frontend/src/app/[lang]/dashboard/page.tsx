@@ -1,5 +1,5 @@
-import { getLocaleDict } from "../locales/locale-settings";
-import { LocaleType } from "../locales/locale-types";
+import { getLocaleDict } from "../../locales/locale-settings";
+import { LocaleType } from "../../locales/locale-types";
 
 export default async function Page({
   params: { lang },
